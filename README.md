@@ -5,7 +5,7 @@ This repository contains the files (1) _YAGO KG_, (2) _ATOMIC KG_, (3) _ConceptN
 
 ![kgs.png](https://github.com/valexande/AssociationKG/blob/main/kgs.png)
 
-each one of this files contains the files (1) _action_ that contains all the files for the object-action association pipeline, (2) _state_ that contains all the files for the object-state assocation pipeline and (3) the _labels X_ (where X is one of the aforementioned graphs) that contains the labels of action-object-state from something-something which exist in the X graph.
+each one of this files contains the files (1) _action_ with all the files for the object-action association pipeline, (2) _state_ with all the files for the object-state association pipeline and (3) the _labels X_ (where X is one of the aforementioned graphs) with the labels of action-object-state from something-something which exist in the X graph.
 
 ![info_kg.png](https://github.com/valexande/AssociationKG/blob/main/info_kg.png)
 
