@@ -21,3 +21,9 @@ Moreover, the file _(3) ConceptNet KG_ shown in the second picture contains all 
 Notice that the WebChild and YAGO KGs had the same number of object action labels. Therefore evaluating CN with the object-action relations existing in these two would return the same scores with CN.
 
 Similar is the case for each KG when evaluting object-state relations.
+
+
+
+Additionally, the repository contains the source code of our whole pipeline and evaluation method in the _AssociationKG source code_ and the clusters that were created from the relation pattern of each KG, in the txt file _allClusters_
+
+![source_cluster.png](https://github.com/valexande/AssociationKG/blob/main/source_cluster.png)
