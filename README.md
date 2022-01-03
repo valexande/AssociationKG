@@ -27,3 +27,13 @@ Similar is the case for each KG when evaluting object-state relations.
 Additionally, the repository contains the source code of our whole pipeline and evaluation method in the _AssociationKG source code_ and the clusters that were created from the relation pattern of each KG, in the txt file _allClusters_
 
 ![source_cluster.png](https://github.com/valexande/AssociationKG/blob/main/source_cluster.png)
+
+Finally, in the picture below we can see what the _AssociationKG source code_ file contains
+
+![source_all.png](https://github.com/valexande/AssociationKG/blob/main/source_all.png)
+
+the _atomic_, _dbpedia_, _webchild_ and _yago_ files contain the scripts to find the labels and create the subgraphs without contextual infromation for each KG, respectively. Similarly, _dataCleaning_ has the scripts that find the labels in ConceptNet and _graphContructor_ has the scripts that construct the subgraphs without contextual information fo ConceptNet. 
+
+All the graphs without contexutal information are stored in the _subgraph_ file. Next, the _relation creator_ contains some scripts that help us create the positive and negative relations given a set of labels. Furthermore, _graphContext_ contains scripts that help us insert contextual information in the subgraphs. Afterwards, the subgraphs related to positive relations are stored in _subgraphContextPositive_ (analogously the  subgraphs related to positive relations are stored in _subgraphContextNegative_). The user must move them to the _subgraphContextFinal_ file for the evaluation. 
+
+The _crossValidation_ file has the script that creates the folds for testing and training and finally _thresholds_ is the file with the scripts that find the optimal thresholds for the path-node-wup metrics, and the weight of importance for the relation patterns with and withou cluster. Moreover, it computes the Accuracy, Precision, Recall and F1 scores as described in the paper.
