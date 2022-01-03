@@ -12,7 +12,7 @@ each one of this files contains the files (1) action that contains all the files
 
 In more detail the folder action (and similarly the folder state) contain the folders: (1) _context graphs_ with all the subgraphs that are descibed in the paper, after pair merging, (2) _cross validation_ with the folds of object-action (or state relations), (3) _patterns_ that contain the most important relation patterns for the problem at hand, (4) _positive-negative relations_ with all the positive and negative object action (or state) relations and (5) _scores_ with the final results for the path-node-wup metrics as well as for the simple relation pattern and relation pattern with clusters.
 
-![more_detail.png](https://github.com/valexande/AssociationKG/blob/main/more_detail.png)
+![more_info.png](https://github.com/valexande/AssociationKG/blob/main/more_info.png)
 
 Moreover, the file _(3) ConceptNet KG_ shown in the second picture contains all the pipeline files when evaluating ConceptNet but with the labels existing in YAGO, ATOMIC, DBpedia and WebChild
 
