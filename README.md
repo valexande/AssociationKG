@@ -40,3 +40,5 @@ The _crossValidation_ file has the script that creates the folds for testing and
 
 # GitHub does not allow us to upload big files, please find the aforementioned code here: [http://lpis.csd.auth.gr/ontologies/2022/AssociationKG/code.zip](http://lpis.csd.auth.gr/ontologies/2022/AssociationKG/code.zip) and the subgraphs + results + patterns + relations here: [http://lpis.csd.auth.gr/ontologies/2022/AssociationKG/dataset_results.zip](http://lpis.csd.auth.gr/ontologies/2022/AssociationKG/dataset_results.zip). Copy-paste the links to a new tab.
 # The files are big (1GB) and (3.5GB)
+
+# The sample files as requested by the reviewers can be found here [http://lpis.csd.auth.gr/ontologies/2022/AssociationKG/SampleFiles.zip](http://lpis.csd.auth.gr/ontologies/2022/AssociationKG/SampleFiles.zip).
